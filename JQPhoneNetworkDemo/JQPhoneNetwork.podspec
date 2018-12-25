@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "JQPhoneNetwork"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "Mobile phone network type: Mobile | Unicom | Telecom; Mobile network status monitoring: Unknown, no network, 2g, 3g, 4g."
 s.homepage     = "https://github.com/xiaohange/JQPhoneNetwork"
 s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -21,6 +21,7 @@ end
 s.subspec 'NetworkListener' do |ct|
 ct.source_files = 'JQPhoneNetwork/NetworkListener/**/*'
 ct.requires_arc = false
+ct.dependency 'JQPhoneNetwork/PhoneHelper'
 ct.dependency 'AFNetworking'
 end
 
