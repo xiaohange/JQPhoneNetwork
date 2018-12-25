@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C2F934621D2184400BB8E8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F934521D2184400BB8E8B /* AppDelegate.m */; };
+		3C2F934921D2184400BB8E8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F934821D2184400BB8E8B /* ViewController.m */; };
+		3C2F934C21D2184400BB8E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2F934A21D2184400BB8E8B /* Main.storyboard */; };
+		3C2F934E21D2184600BB8E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2F934D21D2184600BB8E8B /* Assets.xcassets */; };
+		3C2F935121D2184600BB8E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2F934F21D2184600BB8E8B /* LaunchScreen.storyboard */; };
+		3C2F935421D2184600BB8E8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F935321D2184600BB8E8B /* main.m */; };
+		3C2F935E21D2184600BB8E8B /* JQPhoneNetworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F935D21D2184600BB8E8B /* JQPhoneNetworkDemoTests.m */; };
+		3C2F936921D2184600BB8E8B /* JQPhoneNetworkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F936821D2184600BB8E8B /* JQPhoneNetworkDemoUITests.m */; };
+		3C2F938121D2195700BB8E8B /* JQPhoneBandHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F937821D2195700BB8E8B /* JQPhoneBandHelper.m */; };
+		3C2F938221D2195700BB8E8B /* UIApplication+MS.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F937B21D2195700BB8E8B /* UIApplication+MS.m */; };
+		3C2F938321D2195700BB8E8B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F937D21D2195700BB8E8B /* Reachability.m */; };
+		3C2F938421D2195700BB8E8B /* JQNetworkListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F937E21D2195700BB8E8B /* JQNetworkListener.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F44F0796DFC622D35F436ED8 /* libPods-JQPhoneNetworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AFF001735F86D21AD63F58 /* libPods-JQPhoneNetworkDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C2F935A21D2184600BB8E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C2F933921D2184400BB8E8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2F934021D2184400BB8E8B;
+			remoteInfo = JQPhoneNetworkDemo;
+		};
+		3C2F936521D2184600BB8E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C2F933921D2184400BB8E8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2F934021D2184400BB8E8B;
+			remoteInfo = JQPhoneNetworkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C2F934121D2184400BB8E8B /* JQPhoneNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQPhoneNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2F934421D2184400BB8E8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C2F934521D2184400BB8E8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C2F934721D2184400BB8E8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C2F934821D2184400BB8E8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C2F934B21D2184400BB8E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C2F934D21D2184600BB8E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C2F935021D2184600BB8E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C2F935221D2184600BB8E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2F935321D2184600BB8E8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C2F935921D2184600BB8E8B /* JQPhoneNetworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQPhoneNetworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2F935D21D2184600BB8E8B /* JQPhoneNetworkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQPhoneNetworkDemoTests.m; sourceTree = "<group>"; };
+		3C2F935F21D2184600BB8E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2F936421D2184600BB8E8B /* JQPhoneNetworkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQPhoneNetworkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2F936821D2184600BB8E8B /* JQPhoneNetworkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQPhoneNetworkDemoUITests.m; sourceTree = "<group>"; };
+		3C2F936A21D2184600BB8E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2F937821D2195700BB8E8B /* JQPhoneBandHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQPhoneBandHelper.m; sourceTree = "<group>"; };
+		3C2F937921D2195700BB8E8B /* UIApplication+MS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+MS.h"; sourceTree = "<group>"; };
+		3C2F937A21D2195700BB8E8B /* JQPhoneBandHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQPhoneBandHelper.h; sourceTree = "<group>"; };
+		3C2F937B21D2195700BB8E8B /* UIApplication+MS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+MS.m"; sourceTree = "<group>"; };
+		3C2F937D21D2195700BB8E8B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3C2F937E21D2195700BB8E8B /* JQNetworkListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQNetworkListener.m; sourceTree = "<group>"; };
+		3C2F937F21D2195700BB8E8B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3C2F938021D2195700BB8E8B /* JQNetworkListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQNetworkListener.h; sourceTree = "<group>"; };
+		3C2F938521D2196D00BB8E8B /* JQPhoneNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQPhoneNetwork.h; sourceTree = "<group>"; };
+		A5AFF001735F86D21AD63F58 /* libPods-JQPhoneNetworkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQPhoneNetworkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAA94CF37A275245216B81B /* Pods-JQPhoneNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQPhoneNetworkDemo.release.xcconfig"; path = "Target Support Files/Pods-JQPhoneNetworkDemo/Pods-JQPhoneNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DEE060BBD06A63C0F343C9F2 /* Pods-JQPhoneNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQPhoneNetworkDemo.debug.xcconfig"; path = "Target Support Files/Pods-JQPhoneNetworkDemo/Pods-JQPhoneNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C2F933E21D2184400BB8E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44F0796DFC622D35F436ED8 /* libPods-JQPhoneNetworkDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2F935621D2184600BB8E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2F936121D2184600BB8E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C2F933821D2184400BB8E8B = {
+			isa = PBXGroup;
+			children = (
+				3C2F934321D2184400BB8E8B /* JQPhoneNetworkDemo */,
+				3C2F935C21D2184600BB8E8B /* JQPhoneNetworkDemoTests */,
+				3C2F936721D2184600BB8E8B /* JQPhoneNetworkDemoUITests */,
+				3C2F934221D2184400BB8E8B /* Products */,
+				CD3300F8D005EA73BA5DEBA5 /* Pods */,
+				F85C8B1922B4D238C90BB63C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C2F934221D2184400BB8E8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C2F934121D2184400BB8E8B /* JQPhoneNetworkDemo.app */,
+				3C2F935921D2184600BB8E8B /* JQPhoneNetworkDemoTests.xctest */,
+				3C2F936421D2184600BB8E8B /* JQPhoneNetworkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C2F934321D2184400BB8E8B /* JQPhoneNetworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3C2F937621D2195700BB8E8B /* JQPhoneNetwork */,
+				3C2F934421D2184400BB8E8B /* AppDelegate.h */,
+				3C2F934521D2184400BB8E8B /* AppDelegate.m */,
+				3C2F934721D2184400BB8E8B /* ViewController.h */,
+				3C2F934821D2184400BB8E8B /* ViewController.m */,
+				3C2F934A21D2184400BB8E8B /* Main.storyboard */,
+				3C2F934D21D2184600BB8E8B /* Assets.xcassets */,
+				3C2F934F21D2184600BB8E8B /* LaunchScreen.storyboard */,
+				3C2F935221D2184600BB8E8B /* Info.plist */,
+				3C2F935321D2184600BB8E8B /* main.m */,
+			);
+			path = JQPhoneNetworkDemo;
+			sourceTree = "<group>";
+		};
+		3C2F935C21D2184600BB8E8B /* JQPhoneNetworkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C2F935D21D2184600BB8E8B /* JQPhoneNetworkDemoTests.m */,
+				3C2F935F21D2184600BB8E8B /* Info.plist */,
+			);
+			path = JQPhoneNetworkDemoTests;
+			sourceTree = "<group>";
+		};
+		3C2F936721D2184600BB8E8B /* JQPhoneNetworkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C2F936821D2184600BB8E8B /* JQPhoneNetworkDemoUITests.m */,
+				3C2F936A21D2184600BB8E8B /* Info.plist */,
+			);
+			path = JQPhoneNetworkDemoUITests;
+			sourceTree = "<group>";
+		};
+		3C2F937621D2195700BB8E8B /* JQPhoneNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				3C2F938521D2196D00BB8E8B /* JQPhoneNetwork.h */,
+				3C2F937721D2195700BB8E8B /* PhoneHelper */,
+				3C2F937C21D2195700BB8E8B /* NetworkListener */,
+			);
+			path = JQPhoneNetwork;
+			sourceTree = SOURCE_ROOT;
+		};
+		3C2F937721D2195700BB8E8B /* PhoneHelper */ = {
+			isa = PBXGroup;
+			children = (
+				3C2F937A21D2195700BB8E8B /* JQPhoneBandHelper.h */,
+				3C2F937821D2195700BB8E8B /* JQPhoneBandHelper.m */,
+				3C2F937921D2195700BB8E8B /* UIApplication+MS.h */,
+				3C2F937B21D2195700BB8E8B /* UIApplication+MS.m */,
+			);
+			path = PhoneHelper;
+			sourceTree = "<group>";
+		};
+		3C2F937C21D2195700BB8E8B /* NetworkListener */ = {
+			isa = PBXGroup;
+			children = (
+				3C2F937F21D2195700BB8E8B /* Reachability.h */,
+				3C2F937D21D2195700BB8E8B /* Reachability.m */,
+				3C2F938021D2195700BB8E8B /* JQNetworkListener.h */,
+				3C2F937E21D2195700BB8E8B /* JQNetworkListener.m */,
+			);
+			path = NetworkListener;
+			sourceTree = "<group>";
+		};
+		CD3300F8D005EA73BA5DEBA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEE060BBD06A63C0F343C9F2 /* Pods-JQPhoneNetworkDemo.debug.xcconfig */,
+				ABAA94CF37A275245216B81B /* Pods-JQPhoneNetworkDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F85C8B1922B4D238C90BB63C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5AFF001735F86D21AD63F58 /* libPods-JQPhoneNetworkDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C2F934021D2184400BB8E8B /* JQPhoneNetworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2F936D21D2184600BB8E8B /* Build configuration list for PBXNativeTarget "JQPhoneNetworkDemo" */;
+			buildPhases = (
+				2A0131B7818BB0B65429CF2A /* [CP] Check Pods Manifest.lock */,
+				3C2F933D21D2184400BB8E8B /* Sources */,
+				3C2F933E21D2184400BB8E8B /* Frameworks */,
+				3C2F933F21D2184400BB8E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQPhoneNetworkDemo;
+			productName = JQPhoneNetworkDemo;
+			productReference = 3C2F934121D2184400BB8E8B /* JQPhoneNetworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C2F935821D2184600BB8E8B /* JQPhoneNetworkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2F937021D2184600BB8E8B /* Build configuration list for PBXNativeTarget "JQPhoneNetworkDemoTests" */;
+			buildPhases = (
+				3C2F935521D2184600BB8E8B /* Sources */,
+				3C2F935621D2184600BB8E8B /* Frameworks */,
+				3C2F935721D2184600BB8E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C2F935B21D2184600BB8E8B /* PBXTargetDependency */,
+			);
+			name = JQPhoneNetworkDemoTests;
+			productName = JQPhoneNetworkDemoTests;
+			productReference = 3C2F935921D2184600BB8E8B /* JQPhoneNetworkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C2F936321D2184600BB8E8B /* JQPhoneNetworkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2F937321D2184600BB8E8B /* Build configuration list for PBXNativeTarget "JQPhoneNetworkDemoUITests" */;
+			buildPhases = (
+				3C2F936021D2184600BB8E8B /* Sources */,
+				3C2F936121D2184600BB8E8B /* Frameworks */,
+				3C2F936221D2184600BB8E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C2F936621D2184600BB8E8B /* PBXTargetDependency */,
+			);
+			name = JQPhoneNetworkDemoUITests;
+			productName = JQPhoneNetworkDemoUITests;
+			productReference = 3C2F936421D2184600BB8E8B /* JQPhoneNetworkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C2F933921D2184400BB8E8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = administrator;
+				TargetAttributes = {
+					3C2F934021D2184400BB8E8B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3C2F935821D2184600BB8E8B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3C2F934021D2184400BB8E8B;
+					};
+					3C2F936321D2184600BB8E8B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3C2F934021D2184400BB8E8B;
+					};
+				};
+			};
+			buildConfigurationList = 3C2F933C21D2184400BB8E8B /* Build configuration list for PBXProject "JQPhoneNetworkDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C2F933821D2184400BB8E8B;
+			productRefGroup = 3C2F934221D2184400BB8E8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C2F934021D2184400BB8E8B /* JQPhoneNetworkDemo */,
+				3C2F935821D2184600BB8E8B /* JQPhoneNetworkDemoTests */,
+				3C2F936321D2184600BB8E8B /* JQPhoneNetworkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C2F933F21D2184400BB8E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2F935121D2184600BB8E8B /* LaunchScreen.storyboard in Resources */,
+				3C2F934E21D2184600BB8E8B /* Assets.xcassets in Resources */,
+				3C2F934C21D2184400BB8E8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2F935721D2184600BB8E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2F936221D2184600BB8E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A0131B7818BB0B65429CF2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JQPhoneNetworkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C2F933D21D2184400BB8E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2F938121D2195700BB8E8B /* JQPhoneBandHelper.m in Sources */,
+				3C2F938221D2195700BB8E8B /* UIApplication+MS.m in Sources */,
+				3C2F934921D2184400BB8E8B /* ViewController.m in Sources */,
+				3C2F938421D2195700BB8E8B /* JQNetworkListener.m in Sources */,
+				3C2F935421D2184600BB8E8B /* main.m in Sources */,
+				3C2F938321D2195700BB8E8B /* Reachability.m in Sources */,
+				3C2F934621D2184400BB8E8B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2F935521D2184600BB8E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2F935E21D2184600BB8E8B /* JQPhoneNetworkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2F936021D2184600BB8E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2F936921D2184600BB8E8B /* JQPhoneNetworkDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C2F935B21D2184600BB8E8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C2F934021D2184400BB8E8B /* JQPhoneNetworkDemo */;
+			targetProxy = 3C2F935A21D2184600BB8E8B /* PBXContainerItemProxy */;
+		};
+		3C2F936621D2184600BB8E8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C2F934021D2184400BB8E8B /* JQPhoneNetworkDemo */;
+			targetProxy = 3C2F936521D2184600BB8E8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C2F934A21D2184400BB8E8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2F934B21D2184400BB8E8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C2F934F21D2184600BB8E8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2F935021D2184600BB8E8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C2F936B21D2184600BB8E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C2F936C21D2184600BB8E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C2F936E21D2184600BB8E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE060BBD06A63C0F343C9F2 /* Pods-JQPhoneNetworkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = JQPhoneNetworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiyhahha.mj.JQPhoneNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3C2F936F21D2184600BB8E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABAA94CF37A275245216B81B /* Pods-JQPhoneNetworkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = JQPhoneNetworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiyhahha.mj.JQPhoneNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3C2F937121D2184600BB8E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQPhoneNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiyhahha.mj.JQPhoneNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQPhoneNetworkDemo.app/JQPhoneNetworkDemo";
+			};
+			name = Debug;
+		};
+		3C2F937221D2184600BB8E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQPhoneNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiyhahha.mj.JQPhoneNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQPhoneNetworkDemo.app/JQPhoneNetworkDemo";
+			};
+			name = Release;
+		};
+		3C2F937421D2184600BB8E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQPhoneNetworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiyhahha.mj.JQPhoneNetworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JQPhoneNetworkDemo;
+			};
+			name = Debug;
+		};
+		3C2F937521D2184600BB8E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQPhoneNetworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiyhahha.mj.JQPhoneNetworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JQPhoneNetworkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C2F933C21D2184400BB8E8B /* Build configuration list for PBXProject "JQPhoneNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2F936B21D2184600BB8E8B /* Debug */,
+				3C2F936C21D2184600BB8E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2F936D21D2184600BB8E8B /* Build configuration list for PBXNativeTarget "JQPhoneNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2F936E21D2184600BB8E8B /* Debug */,
+				3C2F936F21D2184600BB8E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2F937021D2184600BB8E8B /* Build configuration list for PBXNativeTarget "JQPhoneNetworkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2F937121D2184600BB8E8B /* Debug */,
+				3C2F937221D2184600BB8E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2F937321D2184600BB8E8B /* Build configuration list for PBXNativeTarget "JQPhoneNetworkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2F937421D2184600BB8E8B /* Debug */,
+				3C2F937521D2184600BB8E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C2F933921D2184400BB8E8B /* Project object */;
+}
