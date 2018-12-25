@@ -6,7 +6,7 @@
 //
 #import <Foundation/Foundation.h>
 #import "Reachability.h"
-#import <AFNetworkReachabilityManager.h>
+#import <AFNetworking/AFNetworkReachabilityManager.h>
 
 static NSString *kNetStatusChangeNotification = @"kNetStatusChangeNotification";//最终变化通知以此为准
 

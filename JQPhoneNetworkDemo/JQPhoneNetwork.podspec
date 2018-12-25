@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "JQPhoneNetwork"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.summary      = "Mobile phone network type: Mobile | Unicom | Telecom; Mobile network status monitoring: Unknown, no network, 2g, 3g, 4g."
 s.homepage     = "https://github.com/xiaohange/JQPhoneNetwork"
 s.license      = { :type => "MIT", :file => "LICENSE" }
